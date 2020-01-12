@@ -21,6 +21,9 @@ function Header() {
         <HeaderLink to="/features">
           <FormattedMessage {...messages.features} />
         </HeaderLink>
+        <HeaderLink to="/about/kevin-le">
+          <FormattedMessage {...messages.about} />
+        </HeaderLink>
       </NavBar>
     </div>
   );
